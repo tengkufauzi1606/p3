@@ -1,0 +1,7 @@
+let img = document.getElementById('img');
+      // Create image element
+      let dynamicImage = document.createElement('img');
+      // Initialize the image source
+      dynamicImage.src = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx15ZsT-n-e5E-QMwQDanQNHN0f87vblUSPe7pHN80bX5XEPKUMJjfZJPyWhNV1xfGF_qp5G0HP3hQqpeDHLOST4wTepxgBmUao1NiuZtFsSDZFXkuqRTuTIMAsrrBAsEnmpMiT5AAyqISJ2o45lWtRk_chSh7K0GD_9iLAWtBwc4CcrcvBng7-3DIfC4/w640-h534/recoverydeletedphotos.gif";
+      // Add image to DOM
+      img.appendChild(dynamicImage);
